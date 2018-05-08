@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<meta charset="utf-8">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+<div id="whole">
+	<div id="container">
+		<h1>To-Do <span id="collapse" class="todo"><i class="fas fa-minus"></i></span></h1>
+		<input type="text" id="todo" placeholder="Add New To-Do">
+
+		<ul id="todo">
+			<li><span><i class="fas fa-check"></i></span> Go to potions class</li>
+			<li><span><i class="fas fa-check"></i></span> Buy new robes</li>
+			<li><span><i class="fas fa-check"></i></span> Visit Hagrid</li>
+		</ul>
+	</div>
+
+	<div id="container">
+		<h1>Completed <span id="collapse" class="completed"><i class="fas fa-minus"></i></span></h1>
+		<input type="text" id="completed" placeholder="Add New To-Do">
+
+		<ul id="completed">
+			<li><span><i class="fas fa-undo"></i></span> Get a wand</li>
+		</ul>
+	</div>
+</div>
+
+<!-- My JS -->
+<script type="text/javascript" src="assets/js/todos.js"></script>
+</body>
+</html>

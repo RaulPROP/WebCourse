@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	
+	<!--  To remove Warning  -->
+	<meta charset="utf-8"/>
+
+	<!--  My CSS  -->
+
+	<link rel="stylesheet" type="text/css" href="color.css">
+
+	<!--  Fonts  -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+</head>
+<body>
+
+	<h1>
+		The Great
+		<br>
+		<span id="colorDisplay">RGB</span>
+		<br>
+		Color Game
+	</h1>
+
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="msg"></span>
+		<button id="easyBtn">Easy</button>
+		<button id="hardBtn" class="selected">Hard</button>
+	</div>
+
+	<div class="container">
+		<div class="tl square"></div>
+		<div class="tc square"></div>
+		<div class="tr square"></div>
+		<div class="bl square"></div>
+		<div class="bc square"></div>
+		<div class="br square"></div>
+	</div>
+
+	<!--  My JS  -->
+	<script type="text/javascript" src="color.js"></script>
+
+</body>
+</html>
